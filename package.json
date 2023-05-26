@@ -1,0 +1,32 @@
+{
+  "name": "mobile_tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next -p 2000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.2.3",
+    "@types/nodemailer": "^6.4.8",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "next": "13.4.3",
+    "nodemailer": "^6.9.2",
+    "pg": "^8.11.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2"
+  }
+}
